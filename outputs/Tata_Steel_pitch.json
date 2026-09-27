@@ -1,0 +1,688 @@
+{
+  "profile": {
+    "company_name": "Tata Steel",
+    "found_in_sources": true,
+    "fields": {
+      "industry": {
+        "value": "Steel, Iron",
+        "basis": "sourced"
+      },
+      "headquarters": {
+        "value": "Mumbai, Maharashtra, India",
+        "basis": "sourced"
+      },
+      "employees": {
+        "value": "78,321 (2024)",
+        "basis": "sourced"
+      },
+      "revenue": {
+        "value": "220,083 crore (FY2025)",
+        "basis": "sourced"
+      },
+      "operations": {
+        "value": "Operates in 26 countries worldwide, with key operations in India, the Netherlands, and the United Kingdom",
+        "basis": "sourced"
+      },
+      "workforce_profile": {
+        "value": "Approximately 78,300 employees worldwide, distributed across many Indian cities and international locations",
+        "basis": "sourced"
+      }
+    },
+    "summary": "Tata Steel Limited is an Indian multinational steel company headquartered in Mumbai and part of the Tata Group, founded on 26 August 1907. In 2024 it ranked 8th globally in crude steel production with an estimated capacity of 35\u202fmillion tonnes and output of 31.02\u202fmillion tonnes.",
+    "key_risks": [
+      {
+        "exposure": "accident_emergency",
+        "severity": "high",
+        "rationale": "Large industrial operations and shop\u2011floor work increase the likelihood of accidents and medical emergencies.",
+        "basis": "assumption",
+        "label": "Accidents and medical emergencies (travel, shop-floor, field work)"
+      },
+      {
+        "exposure": "lifestyle_chronic",
+        "severity": "medium",
+        "rationale": "A sizable workforce in India faces rising rates of diabetes, hypertension, and cholesterol.",
+        "basis": "assumption",
+        "label": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)"
+      },
+      {
+        "exposure": "global_mobility",
+        "severity": "medium",
+        "rationale": "Employees are posted or travel across 26 countries, exposing them to varied health systems and risks.",
+        "basis": "assumption",
+        "label": "Employees travelling or posted abroad"
+      },
+      {
+        "exposure": "distributed_workforce",
+        "severity": "medium",
+        "rationale": "The workforce is spread across many Indian cities and international sites, complicating uniform health\u2011benefit delivery.",
+        "basis": "assumption",
+        "label": "Workforce spread across many Indian cities"
+      },
+      {
+        "exposure": "ageing_dependants",
+        "severity": "low",
+        "rationale": "Employees may have ageing parents requiring additional health coverage, though this is less prevalent than other risks.",
+        "basis": "assumption",
+        "label": "Employees' ageing parents needing cover"
+      }
+    ],
+    "_model": "openai/gpt-oss-120b",
+    "requested_name": "Tata Steel",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tata_Steel"
+      }
+    ],
+    "mode": "llm",
+    "warning": null,
+    "data_available": true,
+    "generated_at": "2026-09-27T16:38:27"
+  },
+  "pitch": {
+    "slides": [
+      {
+        "no": 1,
+        "type": "overview",
+        "title": "Tata Steel: Company Overview & Health-Risk Profile",
+        "summary": "Tata Steel Limited is an Indian multinational steel company headquartered in Mumbai and part of the Tata Group, founded on 26 August 1907. In 2024 it ranked 8th globally in crude steel production with an estimated capacity of 35\u202fmillion tonnes and output of 31.02\u202fmillion tonnes.",
+        "items": [
+          {
+            "text": "Industry: Steel, Iron",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE1"
+          },
+          {
+            "text": "Headquarters: Mumbai, Maharashtra, India",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE2"
+          },
+          {
+            "text": "Employees: 78,321 (2024)",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE3"
+          },
+          {
+            "text": "Workforce: Approximately 78,300 employees worldwide, distributed across many Indian cities and international locations",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE4"
+          }
+        ],
+        "exposures": [
+          {
+            "label": "Accidents and medical emergencies (travel, shop-floor, field work)",
+            "severity": "high",
+            "rationale": "Large industrial operations and shop\u2011floor work increase the likelihood of accidents and medical emergencies.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)",
+            "severity": "medium",
+            "rationale": "A sizable workforce in India faces rising rates of diabetes, hypertension, and cholesterol.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Employees travelling or posted abroad",
+            "severity": "medium",
+            "rationale": "Employees are posted or travel across 26 countries, exposing them to varied health systems and risks.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Workforce spread across many Indian cities",
+            "severity": "medium",
+            "rationale": "The workforce is spread across many Indian cities and international sites, complicating uniform health\u2011benefit delivery.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Employees' ageing parents needing cover",
+            "severity": "low",
+            "rationale": "Employees may have ageing parents requiring additional health coverage, though this is less prevalent than other risks.",
+            "basis": "assumption"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "type": "why_marsh",
+        "title": "Why Choose Marsh",
+        "items": [
+          {
+            "text": "Independent comparison of 4 insurer products against Tata Steel's specific health exposures - not a single-insurer sales pitch.",
+            "kind": "marsh",
+            "id": "S2-ITE1"
+          },
+          {
+            "text": "Transparent, weighted fit-scoring: every recommendation can be traced back to the exposure it addresses.",
+            "kind": "marsh",
+            "id": "S2-ITE2"
+          },
+          {
+            "text": "Every coverage claim in this deck is traced to a clause in the insurer's own documentation and independently audited before it reaches you.",
+            "kind": "marsh",
+            "id": "S2-ITE3"
+          },
+          {
+            "text": "Ongoing advisory support on plan design, add-on selection, employee communication, claims and renewals.",
+            "kind": "marsh",
+            "id": "S2-ITE4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "type": "exposure_map",
+        "title": "Tata Steel's Exposures Mapped to Policy Benefits",
+        "rows": [
+          {
+            "exposure": "Accidents and medical emergencies (travel, shop-floor, field work)",
+            "severity": "high",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-AMBULANCE"
+            ],
+            "feature": "Air ambulance",
+            "text": "ReAssure 2.0 provides Road Ambulance coverage up to the Sum Insured and Air Ambulance up to INR\u202f2,50,000 per hospitalisation.",
+            "kind": "policy",
+            "template_text": "ReAssure 2.0: Road ambulance up to sum insured and air ambulance up to INR 2,50,000 per hospitalisation.",
+            "id": "S3-ROW1"
+          },
+          {
+            "exposure": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)",
+            "severity": "medium",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-LIVEHEALTHY"
+            ],
+            "feature": "Wellness rewards",
+            "text": "ReAssure 2.0 Live Healthy grants up to 30% renewal premium discount for adult members (18+ or individual policy).",
+            "kind": "policy",
+            "template_text": "ReAssure 2.0: Live Healthy offers up to 30% renewal premium discount for adult members.",
+            "id": "S3-ROW2"
+          },
+          {
+            "exposure": "Employees travelling or posted abroad",
+            "severity": "medium",
+            "doc_id": "ABHI",
+            "clause_ids": [
+              "ABHI-p2-VIP"
+            ],
+            "feature": "Treatment abroad",
+            "text": "Activ One VIP+ plan offers global cover for emergency and planned treatment abroad, with combined SI from INR\u202f50\u202fLakh to INR\u202f6\u202fCrore.",
+            "kind": "policy",
+            "template_text": "[Alternative: Activ One] Activ One: Under the VIP+ plan: global cover for emergency and planned treatment abroad (any illness or injury), with sum insured from INR 50 lakh to INR 6 crore.",
+            "id": "S3-ROW3"
+          },
+          {
+            "exposure": "Workforce spread across many Indian cities",
+            "severity": "medium",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-ASSURANCE"
+            ],
+            "feature": "Cashless network (stated)",
+            "text": "ReAssure 2.0 ensures cashless pre\u2011authorisation within 30\u202fminutes and access to 10,000+ network hospitals.",
+            "kind": "policy",
+            "template_text": "ReAssure 2.0: Cashless pre-authorisation within 30 minutes and 10,000+ network hospitals.",
+            "id": "S3-ROW4"
+          },
+          {
+            "exposure": "Employees' ageing parents needing cover",
+            "severity": "low",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p10-OPTIONS"
+            ],
+            "feature": "Parents / in-laws coverable",
+            "text": "Optima Secure+ base cover ranges INR\u202f10\u202fLakh\u2011200\u202fLakh; family floater covers up to 4 adults and 6 children, including parents/in\u2011laws.",
+            "kind": "policy",
+            "template_text": "[Alternative: Optima Secure+] Optima Secure+: Base cover from INR 10 lakh to 200 lakh; family floater up to 4 adults and 6 children, including parents and parents-in-law.",
+            "id": "S3-ROW5"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "type": "comparison",
+        "title": "Policy Comparison & Fit Score",
+        "columns": [
+          "NIVA",
+          "HDFC",
+          "ABHI",
+          "CARE"
+        ],
+        "column_labels": {
+          "NIVA": "ReAssure 2.0",
+          "HDFC": "Optima Secure+",
+          "ABHI": "Activ One",
+          "CARE": "Care Supreme"
+        },
+        "rows": [
+          {
+            "feature": "Air ambulance",
+            "feature_key": "air_ambulance",
+            "cells": {
+              "NIVA": {
+                "status": "included",
+                "value": "Up to INR 2.5L",
+                "clauses": [
+                  "NIVA-p2-AMBULANCE"
+                ]
+              },
+              "HDFC": {
+                "status": "included",
+                "value": "Up to INR 5L",
+                "clauses": [
+                  "HDFC-p11-AMBULANCE"
+                ]
+              },
+              "ABHI": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Up to INR 5L / yr",
+                "clauses": [
+                  "CARE-p3-OPTIONAL"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Personal accident",
+            "feature_key": "personal_accident",
+            "cells": {
+              "NIVA": {
+                "status": "optional",
+                "value": "1X-5X BSI, max 1 Cr",
+                "clauses": [
+                  "NIVA-p2-HOSPCASH-PA"
+                ]
+              },
+              "HDFC": {
+                "status": "optional",
+                "value": "Rider (proposer only)",
+                "clauses": [
+                  "HDFC-p8-PA-CI"
+                ]
+              },
+              "ABHI": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "CARE": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              }
+            }
+          },
+          {
+            "feature": "Early cover for chronic conditions",
+            "feature_key": "chronic_day1",
+            "cells": {
+              "NIVA": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "HDFC": {
+                "status": "optional",
+                "value": "ABCD add-on, from day 31",
+                "clauses": [
+                  "HDFC-p8-ABCD"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Day 1, 7 conditions",
+                "clauses": [
+                  "ABHI-p2-CHRONIC"
+                ]
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Instant Cover, after 30 days",
+                "clauses": [
+                  "CARE-p3-INSTANT"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Wellness rewards",
+            "feature_key": "wellness_rewards",
+            "cells": {
+              "NIVA": {
+                "status": "included",
+                "value": "Up to 30% renewal discount",
+                "clauses": [
+                  "NIVA-p2-LIVEHEALTHY"
+                ]
+              },
+              "HDFC": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Up to 100% HealthReturns",
+                "clauses": [
+                  "ABHI-p1-HEALTHRETURNS"
+                ]
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Up to 30% renewal discount",
+                "clauses": [
+                  "CARE-p3-WELLNESS"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Health check-up",
+            "feature_key": "health_checkup",
+            "cells": {
+              "NIVA": {
+                "status": "included",
+                "value": "Day 1, network cashless",
+                "clauses": [
+                  "NIVA-p2-CHECKUP"
+                ]
+              },
+              "HDFC": {
+                "status": "included",
+                "value": "Every policy year",
+                "clauses": [
+                  "HDFC-p5-CHECKUP"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Advanced, incl. CTA / PET",
+                "clauses": [
+                  "ABHI-p2-CHECKUP"
+                ]
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Annual, optional",
+                "clauses": [
+                  "CARE-p3-OPTIONAL"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Tele-consult / OPD",
+            "feature_key": "teleconsult_opd",
+            "cells": {
+              "NIVA": {
+                "status": "included",
+                "value": "Unlimited e-consults",
+                "clauses": [
+                  "NIVA-p2-OPINION"
+                ]
+              },
+              "HDFC": {
+                "status": "optional",
+                "value": "E-opinion (51 CI); OPD add-on",
+                "clauses": [
+                  "HDFC-p5-EOPINION",
+                  "HDFC-p8-WELLBEING"
+                ]
+              },
+              "ABHI": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "CARE": {
+                "status": "included",
+                "value": "Unlimited GP e-consults",
+                "clauses": [
+                  "CARE-p2-RECHARGE"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Treatment abroad",
+            "feature_key": "global_cover",
+            "cells": {
+              "NIVA": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "HDFC": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "ABHI": {
+                "status": "plan_specific",
+                "value": "VIP+ global cover",
+                "clauses": [
+                  "ABHI-p2-VIP"
+                ]
+              },
+              "CARE": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              }
+            }
+          },
+          {
+            "feature": "Cashless network (stated)",
+            "feature_key": "cashless_network",
+            "cells": {
+              "NIVA": {
+                "status": "included",
+                "value": "10,000+ hospitals",
+                "clauses": [
+                  "NIVA-p2-ASSURANCE"
+                ]
+              },
+              "HDFC": {
+                "status": "included",
+                "value": "16,000 providers",
+                "clauses": [
+                  "HDFC-p12-ADVANTAGES"
+                ]
+              },
+              "ABHI": {
+                "status": "not_mentioned",
+                "value": "Not stated",
+                "clauses": []
+              },
+              "CARE": {
+                "status": "not_mentioned",
+                "value": "Not stated",
+                "clauses": []
+              }
+            }
+          }
+        ],
+        "scores": {
+          "NIVA": 61.3,
+          "HDFC": 61.0,
+          "ABHI": 39.9,
+          "CARE": 39.6
+        }
+      },
+      {
+        "no": 5,
+        "type": "recommendation",
+        "title": "Recommendation: Niva Bupa Health Insurance ReAssure 2.0",
+        "fit_score": 61.3,
+        "items": [
+          {
+            "text": "ReAssure 2.0 Road Ambulance covered up to Sum Insured; Air Ambulance up to INR\u202f2,50,000 per hospitalisation.",
+            "kind": "policy",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-AMBULANCE"
+            ],
+            "template_text": "Road ambulance up to sum insured and air ambulance up to INR 2,50,000 per hospitalisation.",
+            "id": "S5-ITE1"
+          },
+          {
+            "text": "ReAssure 2.0 Live Healthy offers up to 30% renewal premium discount for eligible adult members.",
+            "kind": "policy",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-LIVEHEALTHY"
+            ],
+            "template_text": "Live Healthy offers up to 30% renewal premium discount for adult members.",
+            "id": "S5-ITE2"
+          },
+          {
+            "text": "ReAssure 2.0 provides cashless pre\u2011authorisation within 30\u202fminutes and access to 10,000+ network hospitals.",
+            "kind": "policy",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-ASSURANCE"
+            ],
+            "template_text": "Cashless pre-authorisation within 30 minutes and 10,000+ network hospitals.",
+            "id": "S5-ITE3"
+          },
+          {
+            "text": "ReAssure+ gives unlimited reinstatement after the first claim (each claim up to base SI) and premium stays at entry age until a claim is paid.",
+            "kind": "policy",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-REASSURE"
+            ],
+            "template_text": "ReAssure+ gives unlimited reinstatement after the first claim (each claim up to base SI), and premium stays at entry age until a claim is paid.",
+            "id": "S5-ITE4"
+          },
+          {
+            "text": "Booster+ carries forward unutilised base SI up to 5X for Platinum+ and up to 10X for Titanium+ plans.",
+            "kind": "policy",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-BOOSTER"
+            ],
+            "template_text": "Booster+ carries forward unutilised base sum insured, up to 5X (Platinum+) or 10X (Titanium+).",
+            "id": "S5-ITE5"
+          }
+        ],
+        "considerations": [
+          {
+            "text": "Optional add\u2011on: Hospital cash INR\u202f1,000\u20114,000 per day and Personal Accident cover up to 5X base SI (max INR\u202f1\u202fCrore).",
+            "kind": "policy",
+            "doc_id": "NIVA",
+            "clause_ids": [
+              "NIVA-p2-HOSPCASH-PA"
+            ],
+            "template_text": "Consider add-on: Optional hospital cash (INR 1,000 to 4,000/day) and optional personal accident cover up to 5X base SI (max INR 1 crore).",
+            "id": "S5-CON1"
+          }
+        ],
+        "next_steps": [
+          {
+            "text": "Close fit: HDFC ERGO Optima Secure+ scores 61.0 vs 61.3 - obtain quotes for both before deciding.",
+            "kind": "action",
+            "id": "S5-NEX1"
+          },
+          {
+            "text": "These are individual / family-floater products: agree with the insurer how they are offered to employees (employer-paid or voluntary top-up).",
+            "kind": "action",
+            "id": "S5-NEX2"
+          },
+          {
+            "text": "Confirm employee census (ages, dependants, locations) to obtain premium quotes.",
+            "kind": "action",
+            "id": "S5-NEX3"
+          },
+          {
+            "text": "Validate final terms against the full policy wording before placement.",
+            "kind": "action",
+            "id": "S5-NEX4"
+          }
+        ]
+      }
+    ],
+    "recommended": {
+      "doc_id": "NIVA",
+      "label": "Niva Bupa Health Insurance ReAssure 2.0"
+    },
+    "company": "Tata Steel",
+    "scores": [
+      {
+        "doc_id": "NIVA",
+        "label": "Niva Bupa Health Insurance ReAssure 2.0",
+        "score": 61.3,
+        "breakdown": {
+          "accident_emergency": 78,
+          "lifestyle_chronic": 63,
+          "global_mobility": 0,
+          "distributed_workforce": 100,
+          "ageing_dependants": 0
+        }
+      },
+      {
+        "doc_id": "HDFC",
+        "label": "HDFC ERGO Optima Secure+",
+        "score": 61.0,
+        "breakdown": {
+          "accident_emergency": 78,
+          "lifestyle_chronic": 48,
+          "global_mobility": 0,
+          "distributed_workforce": 83,
+          "ageing_dependants": 83
+        }
+      },
+      {
+        "doc_id": "ABHI",
+        "label": "Aditya Birla Health Insurance Activ One",
+        "score": 39.9,
+        "breakdown": {
+          "accident_emergency": 0,
+          "lifestyle_chronic": 85,
+          "global_mobility": 60,
+          "distributed_workforce": 0,
+          "ageing_dependants": 73
+        }
+      },
+      {
+        "doc_id": "CARE",
+        "label": "Care Health Insurance Care Supreme",
+        "score": 39.6,
+        "breakdown": {
+          "accident_emergency": 28,
+          "lifestyle_chronic": 57,
+          "global_mobility": 0,
+          "distributed_workforce": 33,
+          "ageing_dependants": 83
+        }
+      }
+    ],
+    "mode": "llm",
+    "policy_docs": [
+      "HDFC",
+      "CARE",
+      "ABHI",
+      "NIVA"
+    ],
+    "generated_at": "2026-09-27T16:38:27",
+    "warnings": [],
+    "model": "openai/gpt-oss-120b",
+    "profile_sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tata_Steel"
+      }
+    ]
+  }
+}

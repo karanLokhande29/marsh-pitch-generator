@@ -1,0 +1,2330 @@
+{
+  "summary": {
+    "status": "PASS",
+    "confidence_score": 100.0,
+    "total_claims": 52,
+    "policy_claims_scored": 44,
+    "supported": 44,
+    "partial": 0,
+    "unsupported": 0,
+    "contradicted": 0,
+    "out_of_scope": 8,
+    "needs_human_review": 8,
+    "assumptions_flagged": 1,
+    "rule": "PASS if score >= 90 and no UNSUPPORTED; FAIL on any CONTRADICTED or figure mismatch; else REVIEW"
+  },
+  "claims": [
+    {
+      "claim_id": "S1-ITE1",
+      "slide_no": 1,
+      "slide_title": "Infosys: Company Overview & Health-Risk Profile",
+      "text": "Industry: Information technology Consulting, Outsourcing",
+      "kind": "company",
+      "doc_id": null,
+      "cited": [],
+      "basis": "sourced",
+      "flags": [],
+      "evidence": [],
+      "reason": "Company fact (sourced) - not a policy claim; verify against source.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S1-ITE2",
+      "slide_no": 1,
+      "slide_title": "Infosys: Company Overview & Health-Risk Profile",
+      "text": "Headquarters: Bengaluru, Karnataka, India",
+      "kind": "company",
+      "doc_id": null,
+      "cited": [],
+      "basis": "sourced",
+      "flags": [],
+      "evidence": [],
+      "reason": "Company fact (sourced) - not a policy claim; verify against source.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S1-ITE3",
+      "slide_no": 1,
+      "slide_title": "Infosys: Company Overview & Health-Risk Profile",
+      "text": "Employees: 328,594 (March 2026)",
+      "kind": "company",
+      "doc_id": null,
+      "cited": [],
+      "basis": "sourced",
+      "flags": [],
+      "evidence": [],
+      "reason": "Company fact (sourced) - not a policy claim; verify against source.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S1-ITE4",
+      "slide_no": 1,
+      "slide_title": "Infosys: Company Overview & Health-Risk Profile",
+      "text": "Workforce: large, distributed workforce with many young professionals starting families (assumption)",
+      "kind": "company",
+      "doc_id": null,
+      "cited": [],
+      "basis": "assumption",
+      "flags": [
+        "ASSUMPTION"
+      ],
+      "evidence": [],
+      "reason": "Company fact (assumption) - not a policy claim; verify against source.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S2-ITE1",
+      "slide_no": 2,
+      "slide_title": "Why Choose Marsh",
+      "text": "Independent comparison of 4 insurer products against Infosys's specific health exposures - not a single-insurer sales pitch.",
+      "kind": "marsh",
+      "doc_id": null,
+      "cited": [],
+      "basis": null,
+      "flags": [],
+      "evidence": [],
+      "reason": "Statement about Marsh, not traceable to policy documents - advisor to verify.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S2-ITE2",
+      "slide_no": 2,
+      "slide_title": "Why Choose Marsh",
+      "text": "Transparent, weighted fit-scoring: every recommendation can be traced back to the exposure it addresses.",
+      "kind": "marsh",
+      "doc_id": null,
+      "cited": [],
+      "basis": null,
+      "flags": [],
+      "evidence": [],
+      "reason": "Statement about Marsh, not traceable to policy documents - advisor to verify.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S2-ITE3",
+      "slide_no": 2,
+      "slide_title": "Why Choose Marsh",
+      "text": "Every coverage claim in this deck is traced to a clause in the insurer's own documentation and independently audited before it reaches you.",
+      "kind": "marsh",
+      "doc_id": null,
+      "cited": [],
+      "basis": null,
+      "flags": [],
+      "evidence": [],
+      "reason": "Statement about Marsh, not traceable to policy documents - advisor to verify.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S2-ITE4",
+      "slide_no": 2,
+      "slide_title": "Why Choose Marsh",
+      "text": "Ongoing advisory support on plan design, add-on selection, employee communication, claims and renewals.",
+      "kind": "marsh",
+      "doc_id": null,
+      "cited": [],
+      "basis": null,
+      "flags": [],
+      "evidence": [],
+      "reason": "Statement about Marsh, not traceable to policy documents - advisor to verify.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "OUT_OF_SCOPE"
+    },
+    {
+      "claim_id": "S3-ROW1",
+      "slide_no": 3,
+      "slide_title": "Infosys's Exposures Mapped to Policy Benefits",
+      "text": "Optima Secure+: Room rent reimbursed at actuals with no cap on room category, matching the high metro hospital costs.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p11-ROOMRENT"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p11-ROOMRENT",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 11,
+          "section": "Schedule of Key Benefits",
+          "type": "base",
+          "text": "Room Rent: At actuals. Hospitalisation Expenses, AYUSH Treatment, Home Healthcare, Organ Donor Expenses, Pre-Hospitalisation (60 days), Post-Hospitalisation (180 days): Up to sum insured. Automatic Restore Benefit: Up to 100% of base sum insured, for any illness, for any insured person, unlimited times in a policy year."
+        },
+        {
+          "clause_id": "HDFC-p5-HOSP",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "Hospitalisation Expenses",
+          "type": "base",
+          "text": "Hospitalisation Expenses: covers medical expenses incurred at the time of hospitalisation that include room rent at actuals, ICU expenses, nursing expenses, surgeon's fee, road ambulance charges and so on. It also covers all day care treatments that require hospitalisation for less than 24 hours."
+        },
+        {
+          "clause_id": "HDFC-p4-SHAREDCASH",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "Daily Cash For Shared Room: daily cash of INR 800 per day up to a maximum of INR 4,800 on hospitalisation when you choose a shared accommodation in a network hospital, and the hospitalisation period exceeds 48 hours."
+        }
+      ],
+      "reason": "Clause states room rent at actuals, no cap",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.29,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S3-ROW2",
+      "slide_no": 3,
+      "slide_title": "Infosys's Exposures Mapped to Policy Benefits",
+      "text": "Optima Secure+: Annual preventive health check-up worth INR 2,000-8,000 per insured (individual) after each policy year, regardless of claim status.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p5-CHECKUP"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p5-CHECKUP",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "Preventive Health Check-up",
+          "type": "base",
+          "text": "Preventive health check-up benefits post completion of every policy year, irrespective of claim status. Sub-limit by Base Sum Insured 10 L / 15 L / 20 L, 25 L & 50 L / 100 L & 200 L: Individual Policy (per insured) 2,000 / 4,000 / 5,000 / 8,000; Floater Policy (per policy) 5,000 / 8,000 / 10,000 / 15,000."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p13-RENEWAL",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 13,
+          "section": "Terms Of Renewal",
+          "type": "base",
+          "text": "Life-long renewal regardless of health status or previous claims, except fraud or misrepresentation. Waiting periods reduce by 1 year for every continuous policy year completed. Portability from another insurer with accrued benefits at renewal, subject to underwriting."
+        }
+      ],
+      "reason": "Clause provides check\u2011up limits 2k\u20118k per insured annually",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 2,000",
+          "8,000"
+        ],
+        "matched": [
+          "INR 2,000",
+          "8,000"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.78,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S3-ROW3",
+      "slide_no": 3,
+      "slide_title": "Infosys's Exposures Mapped to Policy Benefits",
+      "text": "Optima Secure+: Maternity, embryo storage and IVF covered through the optional Parenthood add-on (additional premium applies).",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p8-PARENTHOOD"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p8-PARENTHOOD",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 8,
+          "section": "Add-ons To Choose From",
+          "type": "optional",
+          "text": "Parenthood (add-on): Covers maternity expenses, embryo storage costs and IVF treatments. For additional covers, additional premium will be charged."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Optional add\u2011on covers maternity, embryo storage, IVF with extra premium",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.77,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S3-ROW4",
+      "slide_no": 3,
+      "slide_title": "Infosys's Exposures Mapped to Policy Benefits",
+      "text": "Activ One (VIP+ plan): Global emergency and planned treatment cover abroad, sum insured ranging from INR 50 lakh to INR 6 crore.",
+      "kind": "policy",
+      "doc_id": "ABHI",
+      "cited": [
+        "ABHI-p2-VIP"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p2-VIP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One VIP+ plan",
+          "type": "plan_specific",
+          "text": "Activ One VIP+ plan: Global Cover for emergency and planned treatments abroad (any illness / injury). Enhanced International and Domestic Sum Insured from INR 50 Lacs to INR 6 Crores (combined). International and Domestic Maternity Cover: For BSI INR 50 Lacs and 75 Lacs - Domestic Maternity up to INR 1 Lac; For BSI INR 1 Cr and above - worldwide Maternity up to INR 2 Lacs."
+        },
+        {
+          "clause_id": "ABHI-p2-SAVR",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One SAVR plan",
+          "type": "plan_specific",
+          "text": "Activ One SAVR plan: save up to INR 50,000 every year on taxes by declaring your parents or parents-in-law under your policy. Hospi Cash of INR 500 per day (maximum up to 30 days) for the hospitalization of your parents / parents-in-law. Tax benefits are subject to changes in tax laws."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        }
+      ],
+      "reason": "Clause describes global cover abroad with sum insured 50\u202fL\u20116\u202fCr",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 50 lakh",
+          "INR 6 crore"
+        ],
+        "matched": [
+          "INR 50 lakh",
+          "INR 6 crore"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.8,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S3-ROW5",
+      "slide_no": 3,
+      "slide_title": "Infosys's Exposures Mapped to Policy Benefits",
+      "text": "Optima Secure+: No geography-based co-payment and no claim-based loading on renewal premium across India.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p12-ADVANTAGES"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p12-ADVANTAGES",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 12,
+          "section": "Key Advantages",
+          "type": "base",
+          "text": "Lifelong Renewal. Cashless treatment across 16,000 cashless healthcare provider network. No Geography-Based Co-payment: treated in any city across India without any co-payment. No Claim-based Loading: no loading of renewal premium just because you claimed."
+        },
+        {
+          "clause_id": "HDFC-p2-SECURE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Secure Benefit 2X: 2X coverage from Day 1. Your base cover doubles instantly, at no extra cost."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Clause confirms no geography co\u2011payment and no claim loading",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 1.0,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-no_room_rent_cap-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Room rent without cap: At actuals (included)",
+      "cited": [
+        "HDFC-p11-ROOMRENT"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p11-ROOMRENT",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 11,
+          "section": "Schedule of Key Benefits",
+          "type": "base",
+          "text": "Room Rent: At actuals. Hospitalisation Expenses, AYUSH Treatment, Home Healthcare, Organ Donor Expenses, Pre-Hospitalisation (60 days), Post-Hospitalisation (180 days): Up to sum insured. Automatic Restore Benefit: Up to 100% of base sum insured, for any illness, for any insured person, unlimited times in a policy year."
+        },
+        {
+          "clause_id": "HDFC-p5-HOSP",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "Hospitalisation Expenses",
+          "type": "base",
+          "text": "Hospitalisation Expenses: covers medical expenses incurred at the time of hospitalisation that include room rent at actuals, ICU expenses, nursing expenses, surgeon's fee, road ambulance charges and so on. It also covers all day care treatments that require hospitalisation for less than 24 hours."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.62,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-no_room_rent_cap-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Room rent without cap: No capping, up to BSI (included)",
+      "cited": [
+        "ABHI-p1-NOCAP"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p1-NOCAP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 1,
+          "section": "Limitless",
+          "type": "base",
+          "text": "No capping on hospitalization expenses, procedures and benefits such as room rent, ICU charges, road ambulance cover, day care treatments, organ donor expenses, up to your Base Sum Insured. Limitless means there are no sub-limits and every base benefit is covered up to Sum Insured."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        },
+        {
+          "clause_id": "ABHI-p2-VIP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One VIP+ plan",
+          "type": "plan_specific",
+          "text": "Activ One VIP+ plan: Global Cover for emergency and planned treatments abroad (any illness / injury). Enhanced International and Domestic Sum Insured from INR 50 Lacs to INR 6 Crores (combined). International and Domestic Maternity Cover: For BSI INR 50 Lacs and 75 Lacs - Domestic Maternity up to INR 1 Lac; For BSI INR 1 Cr and above - worldwide Maternity up to INR 2 Lacs."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.75,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-no_room_rent_cap-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Room rent without cap: Up to SI (included)",
+      "cited": [
+        "CARE-p2-INPATIENT"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p2-INPATIENT",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 2,
+          "section": "Plan Details",
+          "type": "base",
+          "text": "In-Patient Care: Up to SI. Day Care Treatment: All day care procedures. Modern Treatment: Up to SI. Room Rent: Up to SI. ICU Cover: Up to SI. Pre-Hospitalization: Up to SI, 60 days prior to hospitalization. Post Hospitalization: Up to SI, 180 days after discharge. AYUSH Treatment: Up to SI. Domiciliary Hospitalization: Up to SI. Organ Donor Cover: Up to SI."
+        },
+        {
+          "clause_id": "CARE-p4-UNLIMITED",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 4,
+          "section": "Care Advanced (add-on)",
+          "type": "optional",
+          "text": "Unlimited Care (Care Advanced add-on, additional premium): Any one claim during the lifetime of the policy without any limit on sum insured. Cumulative Bonus Booster: 100% of Base Sum Insured per year irrespective of claim - unlimited times on continuous renewal."
+        },
+        {
+          "clause_id": "CARE-p3-OPTIONAL",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits (Care Supreme, on payment of additional premium): Cumulative Bonus Super up to 100% of SI per year, max. up to 500% of Sum Insured. Annual Health Check-up once per Insured per policy year. Air Ambulance up to INR 5 lacs per year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.78,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-no_room_rent_cap-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Room rent without cap: Not stated in brochure (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-cover_growth-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Cover growth (bonus / carry-forward): +100% BSI every year, no cap (included)",
+      "cited": [
+        "HDFC-p2-INFINITE"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p2-INFINITE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Infinite Benefit: 100% of base sum insured added. Accumulate 100% of base sum insured year after year, infinite times, irrespective of claims made."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p2-SECURE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Secure Benefit 2X: 2X coverage from Day 1. Your base cover doubles instantly, at no extra cost."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "100%"
+        ],
+        "matched": [
+          "100%"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.53,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-cover_growth-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Cover growth (bonus / carry-forward): Up to 6X BSI by year 6 (included)",
+      "cited": [
+        "ABHI-p2-SUPERCREDIT"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p2-SUPERCREDIT",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Credit",
+          "type": "base",
+          "text": "Super Credit: your Sum Insured inflates to 6 times the size of your Base Sum Insured by the 6th year of your policy irrespective of whether you claim. Inflation-proof health insurance plan."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        },
+        {
+          "clause_id": "ABHI-p2-VIP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One VIP+ plan",
+          "type": "plan_specific",
+          "text": "Activ One VIP+ plan: Global Cover for emergency and planned treatments abroad (any illness / injury). Enhanced International and Domestic Sum Insured from INR 50 Lacs to INR 6 Crores (combined). International and Domestic Maternity Cover: For BSI INR 50 Lacs and 75 Lacs - Domestic Maternity up to INR 1 Lac; For BSI INR 1 Cr and above - worldwide Maternity up to INR 2 Lacs."
+        },
+        {
+          "clause_id": "ABHI-p2-SAVR",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One SAVR plan",
+          "type": "plan_specific",
+          "text": "Activ One SAVR plan: save up to INR 50,000 every year on taxes by declaring your parents or parents-in-law under your policy. Hospi Cash of INR 500 per day (maximum up to 30 days) for the hospitalization of your parents / parents-in-law. Tax benefits are subject to changes in tax laws."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "6X",
+          "6"
+        ],
+        "matched": [
+          "6X",
+          "6"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.54,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-cover_growth-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Cover growth (bonus / carry-forward): 50%/yr up to 100% of SI (included)",
+      "cited": [
+        "CARE-p2-BONUS"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p2-BONUS",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 2,
+          "section": "Plan Details",
+          "type": "base",
+          "text": "Cumulative Bonus: 50% of SI per year, max. up to 100% of SI; shall not reduce in case of claim."
+        },
+        {
+          "clause_id": "CARE-p3-OPTIONAL",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits (Care Supreme, on payment of additional premium): Cumulative Bonus Super up to 100% of SI per year, max. up to 500% of Sum Insured. Annual Health Check-up once per Insured per policy year. Air Ambulance up to INR 5 lacs per year."
+        },
+        {
+          "clause_id": "CARE-p4-UNLIMITED",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 4,
+          "section": "Care Advanced (add-on)",
+          "type": "optional",
+          "text": "Unlimited Care (Care Advanced add-on, additional premium): Any one claim during the lifetime of the policy without any limit on sum insured. Cumulative Bonus Booster: 100% of Base Sum Insured per year irrespective of claim - unlimited times on continuous renewal."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "50%",
+          "100%"
+        ],
+        "matched": [
+          "50%",
+          "100%"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.58,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-cover_growth-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Cover growth (bonus / carry-forward): Unutilised SI carried, up to 5X / 10X (included)",
+      "cited": [
+        "NIVA-p2-BOOSTER"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "NIVA-p2-BOOSTER",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Booster+: Platinum+ - Unutilised Base Sum Insured carries forward to the next policy year, maximum up to 5 times of Base Sum Insured. Titanium+ - Unutilised Base Sum Insured carries forward to the next policy year, maximum up to 10 times of Base Sum Insured."
+        },
+        {
+          "clause_id": "NIVA-p2-REASSURE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "ReAssure+: 1st claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the Base Sum Insured. Pay the premium as per your entry age, till a claim is paid (the product may be repriced as per IRDAI guidelines)."
+        },
+        {
+          "clause_id": "NIVA-p2-HOSPCASH-PA",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits: Hospital Cash - up to INR 5 Lac BSI: INR 1,000/day; INR 7.5 Lacs to INR 15 Lac: INR 2,000/day; above 15 Lac: INR 4,000/day (minimum 48 hrs continuous hospitalisation, max 30 days per policy year). Personal Accident: choose from 1X / 2X / 3X / 4X / 5X of base sum insured, maximum up to INR 1 Crore."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "5X",
+          "10X"
+        ],
+        "matched": [
+          "5X",
+          "10X"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.5,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-day1_extra_cover-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Extra cover from Day 1: Secure Benefit 2X (included)",
+      "cited": [
+        "HDFC-p2-SECURE"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p2-SECURE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Secure Benefit 2X: 2X coverage from Day 1. Your base cover doubles instantly, at no extra cost."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "2X"
+        ],
+        "matched": [
+          "2X"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.86,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-day1_extra_cover-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Extra cover from Day 1: - (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-day1_extra_cover-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Extra cover from Day 1: - (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-day1_extra_cover-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Extra cover from Day 1: - (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-high_sum_insured-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Maximum sum insured: INR 10L - 2 Cr (included)",
+      "cited": [
+        "HDFC-p10-OPTIONS"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p10-OPTIONS",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 10,
+          "section": "Wide Coverage Choice",
+          "type": "base",
+          "text": "Choose base coverage from INR 10/15/20/25/50/100/200 Lakhs. Family Floater: maximum of 4 adults and 6 children. Individual Policy: maximum of 6 adults and 6 children. Tenure 1/2/3/4/5 years. Premium in instalments: monthly, quarterly, half-yearly. Adults can be a combination of self, spouse, parents and parents-in-law."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        },
+        {
+          "clause_id": "HDFC-p14-WHY",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 14,
+          "section": "Why Choose HDFC ERGO",
+          "type": "info",
+          "text": "16,000 cashless healthcare provider network. 98% health claims payout ratio. INR 21,700 cr. worth health claims paid in last 15 years. 1.5 cr. lives insured under health insurance. 24x7 call centre servicing in 10 languages."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 10L",
+          "2 Cr"
+        ],
+        "matched": [
+          "INR 10L",
+          "2 Cr"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.67,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-high_sum_insured-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Maximum sum insured: INR 5L - 6 Cr (included)",
+      "cited": [
+        "ABHI-p2-MORE"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p2-MORE",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "More Benefits",
+          "type": "base",
+          "text": "Wide range of Sum Insured from INR 5 lacs to INR 6 crores. Three zone premium: pay the premium as per the city you reside in. No maximum capping on entry age. Age-banded premium: premium increases only after certain age bands, not every year. Cover legally married spouse or live-in partner (same or opposite sex)."
+        },
+        {
+          "clause_id": "ABHI-p2-VIP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One VIP+ plan",
+          "type": "plan_specific",
+          "text": "Activ One VIP+ plan: Global Cover for emergency and planned treatments abroad (any illness / injury). Enhanced International and Domestic Sum Insured from INR 50 Lacs to INR 6 Crores (combined). International and Domestic Maternity Cover: For BSI INR 50 Lacs and 75 Lacs - Domestic Maternity up to INR 1 Lac; For BSI INR 1 Cr and above - worldwide Maternity up to INR 2 Lacs."
+        },
+        {
+          "clause_id": "ABHI-p2-SAVR",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One SAVR plan",
+          "type": "plan_specific",
+          "text": "Activ One SAVR plan: save up to INR 50,000 every year on taxes by declaring your parents or parents-in-law under your policy. Hospi Cash of INR 500 per day (maximum up to 30 days) for the hospitalization of your parents / parents-in-law. Tax benefits are subject to changes in tax laws."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 5L",
+          "6 Cr"
+        ],
+        "matched": [
+          "INR 5L",
+          "6 Cr"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.78,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-high_sum_insured-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Maximum sum insured: INR 5L - 1 Cr (included)",
+      "cited": [
+        "CARE-p2-ELIGIBILITY"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p2-ELIGIBILITY",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 2,
+          "section": "Eligibility Criteria",
+          "type": "base",
+          "text": "Sum Insured (annual): 5L / 7L / 10L / 15L / 25L / 50L / 100L. Entry age minimum: Adult 18 years, Child 90 days; maximum: Adult lifelong, Child 24 years. Cover type: Individual max. up to 6 persons; Floater max. up to 2A2C. Tenure options 1/2/3 years. Premium priced across 7 city zones."
+        },
+        {
+          "clause_id": "CARE-p3-OPTIONAL",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits (Care Supreme, on payment of additional premium): Cumulative Bonus Super up to 100% of SI per year, max. up to 500% of Sum Insured. Annual Health Check-up once per Insured per policy year. Air Ambulance up to INR 5 lacs per year."
+        },
+        {
+          "clause_id": "CARE-p3-OPD",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Care OPD (add-on)",
+          "type": "optional",
+          "text": "Care OPD (add-on policy, available on payment of additional premium): Max. 4 physical consultations with general physician and max. 4 with 14 specified specialists, up to INR 500 per consultation per insured in a policy year; higher option up to INR 1,000 (GP, 10% co-payment) and INR 2,000 (specialists, 5% co-payment)."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 5L",
+          "1 Cr"
+        ],
+        "matched": [
+          "INR 5L",
+          "1 Cr"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.78,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-high_sum_insured-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Maximum sum insured: INR 5L - 1 Cr (included)",
+      "cited": [
+        "NIVA-p2-SI"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "NIVA-p2-SI",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Variants Platinum+ and Titanium+. Base Sum Insured (INR): 5 Lacs, 7.5 Lacs, 10 Lacs, 15 Lacs, 20 Lacs, 25 Lacs, 50 Lacs, 100 Lacs."
+        },
+        {
+          "clause_id": "NIVA-p2-SHAREDACC",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Shared Accommodation: Up to INR 15 Lac Base Sum Insured: INR 800 per day; Maximum INR 4,800. Above INR 15 Lac Base Sum Insured: INR 1,000 per day; Maximum INR 6,000."
+        },
+        {
+          "clause_id": "NIVA-p2-CHECKUP",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Annual Health Checkup (Day 1): for defined list of tests; up to INR 500 for every INR 1 Lac Base Sum Insured (Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy). Available only on cashless with network provider."
+        },
+        {
+          "clause_id": "NIVA-p2-REASSURE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "ReAssure+: 1st claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the Base Sum Insured. Pay the premium as per your entry age, till a claim is paid (the product may be repriced as per IRDAI guidelines)."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 5L",
+          "1 Cr"
+        ],
+        "matched": [
+          "INR 5L",
+          "1 Cr"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.5,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-chronic_day1-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Early cover for chronic conditions: ABCD add-on, from day 31 (optional)",
+      "cited": [
+        "HDFC-p8-ABCD"
+      ],
+      "status": "optional",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p8-ABCD",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 8,
+          "section": "Add-ons To Choose From",
+          "type": "optional",
+          "text": "ABCD Chronic Care (add-on): Covers hospitalisation expenses for Asthma, Blood pressure, Cholesterol and Diabetes from the 31st day."
+        },
+        {
+          "clause_id": "HDFC-p8-WELLBEING",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 8,
+          "section": "Add-ons To Choose From",
+          "type": "optional",
+          "text": "Optima Wellbeing (Add-on): Covers various outpatient benefits. my: health Hospital Cash Benefit (Add-on): per day daily cash amount for each completed day of hospitalisation."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "31"
+        ],
+        "matched": [
+          "31"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.6,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-chronic_day1-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Early cover for chronic conditions: Day 1, 7 conditions (included)",
+      "cited": [
+        "ABHI-p2-CHRONIC"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p2-CHRONIC",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "ABCD++",
+          "type": "base",
+          "text": "ABCD++: Day 1 cover for listed 7 chronic conditions with zero waiting period: Asthma, High Blood Pressure, High Cholesterol, Diabetes, Chronic Obstructive Pulmonary Disease, Obesity, Coronary Artery Disease (PTCA done prior to 1 year). Benefits may vary as per the plan and SI opted."
+        },
+        {
+          "clause_id": "ABHI-p2-VIP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One VIP+ plan",
+          "type": "plan_specific",
+          "text": "Activ One VIP+ plan: Global Cover for emergency and planned treatments abroad (any illness / injury). Enhanced International and Domestic Sum Insured from INR 50 Lacs to INR 6 Crores (combined). International and Domestic Maternity Cover: For BSI INR 50 Lacs and 75 Lacs - Domestic Maternity up to INR 1 Lac; For BSI INR 1 Cr and above - worldwide Maternity up to INR 2 Lacs."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "7"
+        ],
+        "matched": [
+          "7"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.78,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-chronic_day1-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Early cover for chronic conditions: Instant Cover, after 30 days (optional)",
+      "cited": [
+        "CARE-p3-INSTANT"
+      ],
+      "status": "optional",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p3-INSTANT",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits - Instant Cover",
+          "type": "optional",
+          "text": "Instant Cover (optional, additional premium): For Hypertension, Diabetes, Hyperlipidemia or Asthma post initial wait period of 30 days; under Care Advanced also Chronic Obstructive Pulmonary Disease (COPD), Obesity, Coronary Artery Disease with PTCA done prior to 1 year."
+        },
+        {
+          "clause_id": "CARE-p2-INPATIENT",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 2,
+          "section": "Plan Details",
+          "type": "base",
+          "text": "In-Patient Care: Up to SI. Day Care Treatment: All day care procedures. Modern Treatment: Up to SI. Room Rent: Up to SI. ICU Cover: Up to SI. Pre-Hospitalization: Up to SI, 60 days prior to hospitalization. Post Hospitalization: Up to SI, 180 days after discharge. AYUSH Treatment: Up to SI. Domiciliary Hospitalization: Up to SI. Organ Donor Cover: Up to SI."
+        },
+        {
+          "clause_id": "CARE-p3-WELLNESS",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits - Wellness Benefit",
+          "type": "optional",
+          "text": "Wellness Benefit (optional cover on payment of additional premium): renewal discount for recording 10,000 steps or more in a day - 270 days: 30%, 240 days: 20%, 180 days: 15%, 120 days: 10%, less than 120: 0%. Also access to digital fitness coaching, AI fitness coaching and nutritionist / wellness coach."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "30 days"
+        ],
+        "matched": [
+          "30 days"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.7,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-chronic_day1-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Early cover for chronic conditions: - (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-wellness_rewards-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Wellness rewards: - (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-wellness_rewards-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Wellness rewards: Up to 100% HealthReturns (included)",
+      "cited": [
+        "ABHI-p1-HEALTHRETURNS"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p1-HEALTHRETURNS",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 1,
+          "section": "HealthReturns",
+          "type": "base",
+          "text": "Earn up to 100% HealthReturns every year even if you claim, usable for renewal premiums, diagnostic test costs, cost for health emergencies and medical bills. Earn by completing Health Assessment, getting Green Healthy Heart Score, walking 10,000 steps a day or burning 300 calories per session on the Activ Health app. The amount of HealthReturns is indicative and subject to Product and Health Risk Assessment."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        },
+        {
+          "clause_id": "ABHI-p2-SAVR",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One SAVR plan",
+          "type": "plan_specific",
+          "text": "Activ One SAVR plan: save up to INR 50,000 every year on taxes by declaring your parents or parents-in-law under your policy. Hospi Cash of INR 500 per day (maximum up to 30 days) for the hospitalization of your parents / parents-in-law. Tax benefits are subject to changes in tax laws."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "100%"
+        ],
+        "matched": [
+          "100%"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.57,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-wellness_rewards-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Wellness rewards: Up to 30% renewal discount (optional)",
+      "cited": [
+        "CARE-p3-WELLNESS"
+      ],
+      "status": "optional",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p3-WELLNESS",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits - Wellness Benefit",
+          "type": "optional",
+          "text": "Wellness Benefit (optional cover on payment of additional premium): renewal discount for recording 10,000 steps or more in a day - 270 days: 30%, 240 days: 20%, 180 days: 15%, 120 days: 10%, less than 120: 0%. Also access to digital fitness coaching, AI fitness coaching and nutritionist / wellness coach."
+        },
+        {
+          "clause_id": "CARE-p3-OPTIONAL",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits (Care Supreme, on payment of additional premium): Cumulative Bonus Super up to 100% of SI per year, max. up to 500% of Sum Insured. Annual Health Check-up once per Insured per policy year. Air Ambulance up to INR 5 lacs per year."
+        },
+        {
+          "clause_id": "CARE-p3-INSTANT",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits - Instant Cover",
+          "type": "optional",
+          "text": "Instant Cover (optional, additional premium): For Hypertension, Diabetes, Hyperlipidemia or Asthma post initial wait period of 30 days; under Care Advanced also Chronic Obstructive Pulmonary Disease (COPD), Obesity, Coronary Artery Disease with PTCA done prior to 1 year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "30%"
+        ],
+        "matched": [
+          "30%"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.88,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-wellness_rewards-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Wellness rewards: Up to 30% renewal discount (included)",
+      "cited": [
+        "NIVA-p2-LIVEHEALTHY"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "NIVA-p2-LIVEHEALTHY",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Live Healthy: Up to 30% discount on premium at the time of Renewal. Eligible: all members except son/daughter under a Family Floater policy, and any member of age at least 18 years under an Individual policy."
+        },
+        {
+          "clause_id": "NIVA-p2-REASSURE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "ReAssure+: 1st claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the Base Sum Insured. Pay the premium as per your entry age, till a claim is paid (the product may be repriced as per IRDAI guidelines)."
+        },
+        {
+          "clause_id": "NIVA-p2-ASSURANCE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Niva Bupa's Assurance",
+          "type": "info",
+          "text": "30 Mins Cashless Claim Processing (pre-authorisation requests within 30 minutes, subject to receiving all documents). 10,000+ Network Hospitals (approximate, subject to change). 24X7 Customer Service. 2 Crore+ Lives Covered."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "30%"
+        ],
+        "matched": [
+          "30%"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.56,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-health_checkup-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Health check-up: Every policy year (included)",
+      "cited": [
+        "HDFC-p5-CHECKUP"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p5-CHECKUP",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "Preventive Health Check-up",
+          "type": "base",
+          "text": "Preventive health check-up benefits post completion of every policy year, irrespective of claim status. Sub-limit by Base Sum Insured 10 L / 15 L / 20 L, 25 L & 50 L / 100 L & 200 L: Individual Policy (per insured) 2,000 / 4,000 / 5,000 / 8,000; Floater Policy (per policy) 5,000 / 8,000 / 10,000 / 15,000."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.86,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-health_checkup-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Health check-up: Advanced, incl. CTA / PET (included)",
+      "cited": [
+        "ABHI-p2-CHECKUP"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "ABHI-p2-CHECKUP",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Advanced Health Checkup",
+          "type": "base",
+          "text": "Advanced Health Checkup including Computed Tomography Angiography (CTA) and Positron Emission Tomography (PET) Scan at no extra cost."
+        },
+        {
+          "clause_id": "ABHI-p2-SAVR",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Activ One SAVR plan",
+          "type": "plan_specific",
+          "text": "Activ One SAVR plan: save up to INR 50,000 every year on taxes by declaring your parents or parents-in-law under your policy. Hospi Cash of INR 500 per day (maximum up to 30 days) for the hospitalization of your parents / parents-in-law. Tax benefits are subject to changes in tax laws."
+        },
+        {
+          "clause_id": "ABHI-p2-RELOAD",
+          "doc": "Aditya Birla Health Insurance Activ One",
+          "page": 2,
+          "section": "Super Reload",
+          "type": "base",
+          "text": "Super Reload: With Activ One, we will refill your cover up to 100% of your Base Sum Insured unlimited times in a policy year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.67,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-health_checkup-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Health check-up: Annual, optional (optional)",
+      "cited": [
+        "CARE-p3-OPTIONAL"
+      ],
+      "status": "optional",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p3-OPTIONAL",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits (Care Supreme, on payment of additional premium): Cumulative Bonus Super up to 100% of SI per year, max. up to 500% of Sum Insured. Annual Health Check-up once per Insured per policy year. Air Ambulance up to INR 5 lacs per year."
+        },
+        {
+          "clause_id": "CARE-p4-SHIELD",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 4,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Claim Shield (optional): Coverage of expense related to listed 68 non-payable items during hospitalization. Claim Shield+ (Care Advanced add-on): items non-payable per annexure I (list I-IV) covered up to Sum Insured. Modification of PED Wait Period (optional): PED wait period modified to 1 or 2 years. Be-Fit (optional): unlimited access to fitness centres."
+        },
+        {
+          "clause_id": "CARE-p3-INSTANT",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits - Instant Cover",
+          "type": "optional",
+          "text": "Instant Cover (optional, additional premium): For Hypertension, Diabetes, Hyperlipidemia or Asthma post initial wait period of 30 days; under Care Advanced also Chronic Obstructive Pulmonary Disease (COPD), Obesity, Coronary Artery Disease with PTCA done prior to 1 year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 1.0,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-health_checkup-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Health check-up: Day 1, network cashless (included)",
+      "cited": [
+        "NIVA-p2-CHECKUP"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "NIVA-p2-CHECKUP",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Annual Health Checkup (Day 1): for defined list of tests; up to INR 500 for every INR 1 Lac Base Sum Insured (Individual: Maximum INR 5,000 per Insured; Family Floater: Maximum INR 10,000 per policy). Available only on cashless with network provider."
+        },
+        {
+          "clause_id": "NIVA-p2-ASSURANCE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Niva Bupa's Assurance",
+          "type": "info",
+          "text": "30 Mins Cashless Claim Processing (pre-authorisation requests within 30 minutes, subject to receiving all documents). 10,000+ Network Hospitals (approximate, subject to change). 24X7 Customer Service. 2 Crore+ Lives Covered."
+        },
+        {
+          "clause_id": "NIVA-p2-REASSURE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "ReAssure+: 1st claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the Base Sum Insured. Pay the premium as per your entry age, till a claim is paid (the product may be repriced as per IRDAI guidelines)."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.7,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-teleconsult_opd-HDFC",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "HDFC",
+      "text": "Optima Secure+ - Tele-consult / OPD: E-opinion (51 CI); OPD add-on (optional)",
+      "cited": [
+        "HDFC-p5-EOPINION",
+        "HDFC-p8-WELLBEING"
+      ],
+      "status": "optional",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p5-EOPINION",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "E-Opinion",
+          "type": "base",
+          "text": "E-Opinion: Get e-opinion on 51 critical illnesses through network providers in India. E-Opinion for Critical Illness: once per insured person (for 51 defined major illnesses)."
+        },
+        {
+          "clause_id": "HDFC-p8-WELLBEING",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 8,
+          "section": "Add-ons To Choose From",
+          "type": "optional",
+          "text": "Optima Wellbeing (Add-on): Covers various outpatient benefits. my: health Hospital Cash Benefit (Add-on): per day daily cash amount for each completed day of hospitalisation."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "51"
+        ],
+        "matched": [
+          "51"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.55,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-teleconsult_opd-ABHI",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "ABHI",
+      "text": "Activ One - Tele-consult / OPD: - (not_mentioned)",
+      "cited": [],
+      "status": "not_mentioned",
+      "flags": [],
+      "evidence": [],
+      "reason": "Absence statement ('not stated in brochure'); confirmed when the knowledge base was curated.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-teleconsult_opd-CARE",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "CARE",
+      "text": "Care Supreme - Tele-consult / OPD: Unlimited GP e-consults (included)",
+      "cited": [
+        "CARE-p2-RECHARGE"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "CARE-p2-RECHARGE",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 2,
+          "section": "Plan Details",
+          "type": "base",
+          "text": "Unlimited Automatic Recharge: Available for unlimited times for unrelated or same illness. Unlimited E-Consultations: Available for consultations with general physicians (as per the empanelled list of general physicians within the company network)."
+        },
+        {
+          "clause_id": "CARE-p3-OPD",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Care OPD (add-on)",
+          "type": "optional",
+          "text": "Care OPD (add-on policy, available on payment of additional premium): Max. 4 physical consultations with general physician and max. 4 with 14 specified specialists, up to INR 500 per consultation per insured in a policy year; higher option up to INR 1,000 (GP, 10% co-payment) and INR 2,000 (specialists, 5% co-payment)."
+        },
+        {
+          "clause_id": "CARE-p3-OPTIONAL",
+          "doc": "Care Health Insurance Care Supreme",
+          "page": 3,
+          "section": "Optional Benefits",
+          "type": "optional",
+          "text": "Optional Benefits (Care Supreme, on payment of additional premium): Cumulative Bonus Super up to 100% of SI per year, max. up to 500% of Sum Insured. Annual Health Check-up once per Insured per policy year. Air Ambulance up to INR 5 lacs per year."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.6,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S4-teleconsult_opd-NIVA",
+      "slide_no": 4,
+      "slide_title": "Policy Comparison & Fit Score",
+      "kind": "matrix",
+      "doc_id": "NIVA",
+      "text": "ReAssure 2.0 - Tele-consult / OPD: Unlimited e-consults (included)",
+      "cited": [
+        "NIVA-p2-OPINION"
+      ],
+      "status": "included",
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "NIVA-p2-OPINION",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Second Medical Opinion: Once for any condition in a Policy Year. e-consultation: Unlimited e-consultation within our network."
+        },
+        {
+          "clause_id": "NIVA-p2-REASSURE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "ReAssure+: 1st claim triggers ReAssure+, forever. It is Unlimited. Each claim will be up to the Base Sum Insured. Pay the premium as per your entry age, till a claim is paid (the product may be repriced as per IRDAI guidelines)."
+        },
+        {
+          "clause_id": "NIVA-p2-AMBULANCE",
+          "doc": "Niva Bupa Health Insurance ReAssure 2.0",
+          "page": 2,
+          "section": "Product Benefit Table",
+          "type": "base",
+          "text": "Ambulance: Road Ambulance covered up to Sum Insured; Air Ambulance up to INR 2,50,000 per Hospitalisation."
+        }
+      ],
+      "reason": "Cell value and status match the cited clause.",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.4,
+      "verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-ITE1",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: Room rent paid at actuals with no room-category cap.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p11-ROOMRENT"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p11-ROOMRENT",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 11,
+          "section": "Schedule of Key Benefits",
+          "type": "base",
+          "text": "Room Rent: At actuals. Hospitalisation Expenses, AYUSH Treatment, Home Healthcare, Organ Donor Expenses, Pre-Hospitalisation (60 days), Post-Hospitalisation (180 days): Up to sum insured. Automatic Restore Benefit: Up to 100% of base sum insured, for any illness, for any insured person, unlimited times in a policy year."
+        },
+        {
+          "clause_id": "HDFC-p5-HOSP",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "Hospitalisation Expenses",
+          "type": "base",
+          "text": "Hospitalisation Expenses: covers medical expenses incurred at the time of hospitalisation that include room rent at actuals, ICU expenses, nursing expenses, surgeon's fee, road ambulance charges and so on. It also covers all day care treatments that require hospitalisation for less than 24 hours."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Clause states room rent at actuals, no cap",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.56,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-ITE2",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: Preventive health check-up each policy year, INR 2,000-8,000 per insured (individual), irrespective of claims.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p5-CHECKUP"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p5-CHECKUP",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 5,
+          "section": "Preventive Health Check-up",
+          "type": "base",
+          "text": "Preventive health check-up benefits post completion of every policy year, irrespective of claim status. Sub-limit by Base Sum Insured 10 L / 15 L / 20 L, 25 L & 50 L / 100 L & 200 L: Individual Policy (per insured) 2,000 / 4,000 / 5,000 / 8,000; Floater Policy (per policy) 5,000 / 8,000 / 10,000 / 15,000."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p9-DISCOUNTS",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 9,
+          "section": "Other Product Features - Discounts",
+          "type": "base",
+          "text": "Lifetime Discount: additional 5% for first time buyers if all insured persons are 35 years or below. Favourable Claims Experience Discount: up to 21% as a first-time buyer and up to 18% on renewal. Loyalty Discount 2.5%. Family Discount: 10% if two or more family members are covered under the individual policy option. Long-term Discount: 6% for a 2-year term and 8% for 3-year and above."
+        }
+      ],
+      "reason": "Clause provides annual check\u2011up 2k\u20118k per insured irrespective of claims",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "INR 2,000",
+          "8,000"
+        ],
+        "matched": [
+          "INR 2,000",
+          "8,000"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.93,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-ITE3",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: No geography-based co-payment and no claim-based loading on renewal premium.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p12-ADVANTAGES"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p12-ADVANTAGES",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 12,
+          "section": "Key Advantages",
+          "type": "base",
+          "text": "Lifelong Renewal. Cashless treatment across 16,000 cashless healthcare provider network. No Geography-Based Co-payment: treated in any city across India without any co-payment. No Claim-based Loading: no loading of renewal premium just because you claimed."
+        },
+        {
+          "clause_id": "HDFC-p2-SECURE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Secure Benefit 2X: 2X coverage from Day 1. Your base cover doubles instantly, at no extra cost."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Clause confirms no geography co\u2011payment and no claim\u2011based loading",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 1.0,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-ITE4",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: Secure Benefit 2X provides double coverage from Day 1 at no extra cost.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p2-SECURE"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p2-SECURE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Secure Benefit 2X: 2X coverage from Day 1. Your base cover doubles instantly, at no extra cost."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ],
+      "reason": "Clause confirms 2X coverage from Day 1 at no extra cost",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "2X"
+        ],
+        "matched": [
+          "2X"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.82,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-ITE5",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: Automatic Restore refills the base cover after every claim, unlimited times.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p2-RESTORE"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p2-RESTORE",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 2,
+          "section": "Key Coverages",
+          "type": "base",
+          "text": "Automatic Restore Benefit (Unlimited Times): Every time you claim, your base cover is restored, as many times as needed."
+        },
+        {
+          "clause_id": "HDFC-p11-ROOMRENT",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 11,
+          "section": "Schedule of Key Benefits",
+          "type": "base",
+          "text": "Room Rent: At actuals. Hospitalisation Expenses, AYUSH Treatment, Home Healthcare, Organ Donor Expenses, Pre-Hospitalisation (60 days), Post-Hospitalisation (180 days): Up to sum insured. Automatic Restore Benefit: Up to 100% of base sum insured, for any illness, for any insured person, unlimited times in a policy year."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Clause states Automatic Restore unlimited times",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [],
+        "matched": [],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.82,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-CON1",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: Waiting periods - 30 days initial, 24 months for specific illnesses, 36 months for pre-existing diseases.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p14-WAITING"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p14-WAITING",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 14,
+          "section": "Standard Exclusions & Waiting Periods",
+          "type": "base",
+          "text": "Waiting Periods: 30 days initial waiting period, 24 months waiting period on specific illnesses and surgical procedures, 36 months waiting period on pre-existing diseases."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        },
+        {
+          "clause_id": "HDFC-p3-PREMIUM-EG",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 3,
+          "section": "How Optima Secure+ Works",
+          "type": "info",
+          "text": "Illustration: a 35-year-old buys INR 10 lakhs base cover for his family and pays a premium of INR 22,616. INR 22,616 premium is for Optima Secure+ plan including favourable claims experience discount and lifetime discount, for a 2-member Family Floater policy with age 35 years and 30 years."
+        }
+      ],
+      "reason": "Clause lists exact waiting periods described",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "30 days",
+          "24 months",
+          "36 months"
+        ],
+        "matched": [
+          "30 days",
+          "24 months",
+          "36 months"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 1.0,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    },
+    {
+      "claim_id": "S5-CON2",
+      "slide_no": 5,
+      "slide_title": "Recommendation: HDFC ERGO Optima Secure+",
+      "text": "Optima Secure+: Optional ABCD Chronic Care add-on covers hospitalisation for asthma, blood pressure, cholesterol and diabetes from day 31.",
+      "kind": "policy",
+      "doc_id": "HDFC",
+      "cited": [
+        "HDFC-p8-ABCD"
+      ],
+      "basis": null,
+      "flags": [],
+      "evidence": [
+        {
+          "clause_id": "HDFC-p8-ABCD",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 8,
+          "section": "Add-ons To Choose From",
+          "type": "optional",
+          "text": "ABCD Chronic Care (add-on): Covers hospitalisation expenses for Asthma, Blood pressure, Cholesterol and Diabetes from the 31st day."
+        },
+        {
+          "clause_id": "HDFC-p8-WELLBEING",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 8,
+          "section": "Add-ons To Choose From",
+          "type": "optional",
+          "text": "Optima Wellbeing (Add-on): Covers various outpatient benefits. my: health Hospital Cash Benefit (Add-on): per day daily cash amount for each completed day of hospitalisation."
+        },
+        {
+          "clause_id": "HDFC-p4-PREPOST",
+          "doc": "HDFC ERGO Optima Secure+",
+          "page": 4,
+          "section": "Additional Coverages",
+          "type": "base",
+          "text": "60 & 180 Days Pre & Post Hospitalisation Covered: Optima Secure+ covers medical expenses for 60 days pre and 180 days post hospitalisation."
+        }
+      ],
+      "reason": "Clause describes ABCD add-on coverage from day 31",
+      "suggested_fix": "",
+      "advisor_action": "pending",
+      "numeric_check": {
+        "numbers": [
+          "31"
+        ],
+        "matched": [
+          "31"
+        ],
+        "missing": [],
+        "passed": true
+      },
+      "det_verdict": "SUPPORTED",
+      "lexical_overlap": 0.88,
+      "verdict": "SUPPORTED",
+      "llm_verdict": "SUPPORTED"
+    }
+  ],
+  "method": "llm+deterministic",
+  "warnings": [],
+  "audited_at": "2026-09-27T16:38:24",
+  "policy_docs": [
+    "HDFC ERGO Optima Secure+",
+    "Care Health Insurance Care Supreme",
+    "Aditya Birla Health Insurance Activ One",
+    "Niva Bupa Health Insurance ReAssure 2.0"
+  ],
+  "decision": null
+}

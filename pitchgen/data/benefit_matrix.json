@@ -1,0 +1,132 @@
+{
+  "_about": "Policy x feature matrix used for exposure mapping and the recommendation score. status: included | plan_specific | optional | not_mentioned. Every non-empty cell cites clause IDs from clauses.json.",
+  "status_score": {"included": 1.0, "plan_specific": 0.6, "optional": 0.5, "not_mentioned": 0.0},
+  "exposures": {
+    "high_treatment_costs": {
+      "label": "High cost of hospitalisation in metro cities",
+      "features": {"no_room_rent_cap": 1.0, "cover_growth": 0.6, "day1_extra_cover": 0.6, "high_sum_insured": 0.6}
+    },
+    "repeat_claims": {
+      "label": "Multiple claims in a year across employees and families",
+      "features": {"unlimited_restore": 1.0, "cover_growth": 0.4}
+    },
+    "lifestyle_chronic": {
+      "label": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)",
+      "features": {"chronic_day1": 1.0, "wellness_rewards": 0.7, "health_checkup": 0.6, "teleconsult_opd": 0.4}
+    },
+    "out_of_pocket": {
+      "label": "Out-of-pocket non-medical costs at claim time",
+      "features": {"non_medical_items": 1.0, "no_room_rent_cap": 0.5}
+    },
+    "medical_inflation": {
+      "label": "Medical inflation eroding cover over time",
+      "features": {"cover_growth": 1.0, "day1_extra_cover": 0.5}
+    },
+    "young_families": {
+      "label": "Young workforce starting families (maternity, child care)",
+      "features": {"maternity": 1.0, "teleconsult_opd": 0.5, "family_dependants": 0.5}
+    },
+    "ageing_dependants": {
+      "label": "Employees' ageing parents needing cover",
+      "features": {"family_dependants": 1.0, "chronic_day1": 0.5}
+    },
+    "accident_emergency": {
+      "label": "Accidents and medical emergencies (travel, shop-floor, field work)",
+      "features": {"air_ambulance": 1.0, "personal_accident": 0.8}
+    },
+    "global_mobility": {
+      "label": "Employees travelling or posted abroad",
+      "features": {"global_cover": 1.0}
+    },
+    "distributed_workforce": {
+      "label": "Workforce spread across many Indian cities",
+      "features": {"cashless_network": 1.0, "teleconsult_opd": 0.5}
+    },
+    "stress_wellbeing": {
+      "label": "Work stress and preventive-health needs",
+      "features": {"wellness_rewards": 1.0, "health_checkup": 0.7, "teleconsult_opd": 0.6}
+    }
+  },
+  "features": {
+    "high_sum_insured": {"label": "Maximum sum insured",
+      "HDFC": {"status": "included", "value": "INR 10L - 2 Cr", "clauses": ["HDFC-p10-OPTIONS"]},
+      "CARE": {"status": "included", "value": "INR 5L - 1 Cr", "clauses": ["CARE-p2-ELIGIBILITY"]},
+      "ABHI": {"status": "included", "value": "INR 5L - 6 Cr", "clauses": ["ABHI-p2-MORE"]},
+      "NIVA": {"status": "included", "value": "INR 5L - 1 Cr", "clauses": ["NIVA-p2-SI"]}},
+    "no_room_rent_cap": {"label": "Room rent without cap",
+      "HDFC": {"status": "included", "value": "At actuals", "clauses": ["HDFC-p11-ROOMRENT"]},
+      "CARE": {"status": "included", "value": "Up to SI", "clauses": ["CARE-p2-INPATIENT"]},
+      "ABHI": {"status": "included", "value": "No capping, up to BSI", "clauses": ["ABHI-p1-NOCAP"]},
+      "NIVA": {"status": "not_mentioned", "value": "Not stated in brochure", "clauses": []}},
+    "unlimited_restore": {"label": "Unlimited restore of cover",
+      "HDFC": {"status": "included", "value": "Automatic Restore, unlimited", "clauses": ["HDFC-p2-RESTORE"]},
+      "CARE": {"status": "included", "value": "Unlimited Automatic Recharge", "clauses": ["CARE-p2-RECHARGE"]},
+      "ABHI": {"status": "included", "value": "Super Reload, unlimited", "clauses": ["ABHI-p2-RELOAD"]},
+      "NIVA": {"status": "included", "value": "ReAssure+, unlimited", "clauses": ["NIVA-p2-REASSURE"]}},
+    "cover_growth": {"label": "Cover growth (bonus / carry-forward)",
+      "HDFC": {"status": "included", "value": "+100% BSI every year, no cap", "clauses": ["HDFC-p2-INFINITE"]},
+      "CARE": {"status": "included", "value": "50%/yr up to 100% of SI", "clauses": ["CARE-p2-BONUS"]},
+      "ABHI": {"status": "included", "value": "Up to 6X BSI by year 6", "clauses": ["ABHI-p2-SUPERCREDIT"]},
+      "NIVA": {"status": "included", "value": "Unutilised SI carried, up to 5X / 10X", "clauses": ["NIVA-p2-BOOSTER"]}},
+    "day1_extra_cover": {"label": "Extra cover from Day 1",
+      "HDFC": {"status": "included", "value": "Secure Benefit 2X", "clauses": ["HDFC-p2-SECURE"]},
+      "CARE": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "ABHI": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "NIVA": {"status": "not_mentioned", "value": "-", "clauses": []}},
+    "non_medical_items": {"label": "Non-medical items covered",
+      "HDFC": {"status": "included", "value": "Protect Benefit", "clauses": ["HDFC-p2-PROTECT"]},
+      "CARE": {"status": "optional", "value": "Claim Shield / Shield+", "clauses": ["CARE-p4-SHIELD"]},
+      "ABHI": {"status": "included", "value": "Claim Protect", "clauses": ["ABHI-p1-CLAIMPROTECT"]},
+      "NIVA": {"status": "optional", "value": "Safeguard / Safeguard+", "clauses": ["NIVA-p2-SAFEGUARD"]}},
+    "chronic_day1": {"label": "Early cover for chronic conditions",
+      "HDFC": {"status": "optional", "value": "ABCD add-on, from day 31", "clauses": ["HDFC-p8-ABCD"]},
+      "CARE": {"status": "optional", "value": "Instant Cover, after 30 days", "clauses": ["CARE-p3-INSTANT"]},
+      "ABHI": {"status": "included", "value": "Day 1, 7 conditions", "clauses": ["ABHI-p2-CHRONIC"]},
+      "NIVA": {"status": "not_mentioned", "value": "-", "clauses": []}},
+    "wellness_rewards": {"label": "Wellness rewards",
+      "HDFC": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "CARE": {"status": "optional", "value": "Up to 30% renewal discount", "clauses": ["CARE-p3-WELLNESS"]},
+      "ABHI": {"status": "included", "value": "Up to 100% HealthReturns", "clauses": ["ABHI-p1-HEALTHRETURNS"]},
+      "NIVA": {"status": "included", "value": "Up to 30% renewal discount", "clauses": ["NIVA-p2-LIVEHEALTHY"]}},
+    "health_checkup": {"label": "Health check-up",
+      "HDFC": {"status": "included", "value": "Every policy year", "clauses": ["HDFC-p5-CHECKUP"]},
+      "CARE": {"status": "optional", "value": "Annual, optional", "clauses": ["CARE-p3-OPTIONAL"]},
+      "ABHI": {"status": "included", "value": "Advanced, incl. CTA / PET", "clauses": ["ABHI-p2-CHECKUP"]},
+      "NIVA": {"status": "included", "value": "Day 1, network cashless", "clauses": ["NIVA-p2-CHECKUP"]}},
+    "teleconsult_opd": {"label": "Tele-consult / OPD",
+      "HDFC": {"status": "optional", "value": "E-opinion (51 CI); OPD add-on", "clauses": ["HDFC-p5-EOPINION", "HDFC-p8-WELLBEING"]},
+      "CARE": {"status": "included", "value": "Unlimited GP e-consults", "clauses": ["CARE-p2-RECHARGE"]},
+      "ABHI": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "NIVA": {"status": "included", "value": "Unlimited e-consults", "clauses": ["NIVA-p2-OPINION"]}},
+    "maternity": {"label": "Maternity",
+      "HDFC": {"status": "optional", "value": "Parenthood add-on only", "clauses": ["HDFC-p8-PARENTHOOD", "HDFC-p14-EXCLUSIONS"]},
+      "CARE": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "ABHI": {"status": "plan_specific", "value": "VIP+ plan, BSI 50L+", "clauses": ["ABHI-p2-VIP"]},
+      "NIVA": {"status": "not_mentioned", "value": "-", "clauses": []}},
+    "family_dependants": {"label": "Parents / in-laws coverable",
+      "HDFC": {"status": "included", "value": "Parents & in-laws", "clauses": ["HDFC-p10-OPTIONS"]},
+      "CARE": {"status": "included", "value": "Parents, in-laws, grandparents", "clauses": ["CARE-p2-WHOCOVERED"]},
+      "ABHI": {"status": "plan_specific", "value": "SAVR plan", "clauses": ["ABHI-p2-SAVR"]},
+      "NIVA": {"status": "not_mentioned", "value": "-", "clauses": []}},
+    "air_ambulance": {"label": "Air ambulance",
+      "HDFC": {"status": "included", "value": "Up to INR 5L", "clauses": ["HDFC-p11-AMBULANCE"]},
+      "CARE": {"status": "optional", "value": "Up to INR 5L / yr", "clauses": ["CARE-p3-OPTIONAL"]},
+      "ABHI": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "NIVA": {"status": "included", "value": "Up to INR 2.5L", "clauses": ["NIVA-p2-AMBULANCE"]}},
+    "personal_accident": {"label": "Personal accident",
+      "HDFC": {"status": "optional", "value": "Rider (proposer only)", "clauses": ["HDFC-p8-PA-CI"]},
+      "CARE": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "ABHI": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "NIVA": {"status": "optional", "value": "1X-5X BSI, max 1 Cr", "clauses": ["NIVA-p2-HOSPCASH-PA"]}},
+    "global_cover": {"label": "Treatment abroad",
+      "HDFC": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "CARE": {"status": "not_mentioned", "value": "-", "clauses": []},
+      "ABHI": {"status": "plan_specific", "value": "VIP+ global cover", "clauses": ["ABHI-p2-VIP"]},
+      "NIVA": {"status": "not_mentioned", "value": "-", "clauses": []}},
+    "cashless_network": {"label": "Cashless network (stated)",
+      "HDFC": {"status": "included", "value": "16,000 providers", "clauses": ["HDFC-p12-ADVANTAGES"]},
+      "CARE": {"status": "not_mentioned", "value": "Not stated", "clauses": []},
+      "ABHI": {"status": "not_mentioned", "value": "Not stated", "clauses": []},
+      "NIVA": {"status": "included", "value": "10,000+ hospitals", "clauses": ["NIVA-p2-ASSURANCE"]}}
+  }
+}

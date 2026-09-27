@@ -1,0 +1,701 @@
+{
+  "profile": {
+    "company_name": "Infosys",
+    "found_in_sources": true,
+    "fields": {
+      "industry": {
+        "value": "Information technology Consulting, Outsourcing",
+        "basis": "sourced"
+      },
+      "headquarters": {
+        "value": "Bengaluru, Karnataka, India",
+        "basis": "sourced"
+      },
+      "employees": {
+        "value": "328,594 (March 2026)",
+        "basis": "sourced"
+      },
+      "revenue": {
+        "value": "181,638 crore INR (2026)",
+        "basis": "sourced"
+      },
+      "operations": {
+        "value": "Worldwide",
+        "basis": "sourced"
+      },
+      "workforce_profile": {
+        "value": "large, distributed workforce with many young professionals starting families",
+        "basis": "assumption"
+      }
+    },
+    "summary": "Infosys Limited is an Indian multinational technology company offering IT, business consulting, and outsourcing services, founded in 1981 and headquartered in Bengaluru. It is one of the Big Six Indian IT firms and serves clients worldwide.",
+    "key_risks": [
+      {
+        "exposure": "high_treatment_costs",
+        "severity": "high",
+        "rationale": "Employees are based in major Indian metros where hospitalisation costs are rising sharply.",
+        "basis": "assumption",
+        "label": "High cost of hospitalisation in metro cities"
+      },
+      {
+        "exposure": "lifestyle_chronic",
+        "severity": "medium",
+        "rationale": "A large Indian workforce often faces diabetes, hypertension, and cholesterol issues.",
+        "basis": "assumption",
+        "label": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)"
+      },
+      {
+        "exposure": "young_families",
+        "severity": "medium",
+        "rationale": "Many employees are in early career stages and are starting families, increasing maternity and child\u2011care claims.",
+        "basis": "assumption",
+        "label": "Young workforce starting families (maternity, child care)"
+      },
+      {
+        "exposure": "global_mobility",
+        "severity": "high",
+        "rationale": "Infosys' worldwide service footprint means staff frequently travel or are posted abroad, raising exposure to travel\u2011related medical emergencies.",
+        "basis": "assumption",
+        "label": "Employees travelling or posted abroad"
+      },
+      {
+        "exposure": "distributed_workforce",
+        "severity": "medium",
+        "rationale": "The workforce is spread across numerous Indian cities, complicating uniform health\u2011benefit delivery.",
+        "basis": "assumption",
+        "label": "Workforce spread across many Indian cities"
+      }
+    ],
+    "_model": "openai/gpt-oss-120b",
+    "requested_name": "Infosys",
+    "sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Infosys"
+      }
+    ],
+    "mode": "llm",
+    "warning": null,
+    "data_available": true,
+    "generated_at": "2026-09-27T16:38:24"
+  },
+  "pitch": {
+    "slides": [
+      {
+        "no": 1,
+        "type": "overview",
+        "title": "Infosys: Company Overview & Health-Risk Profile",
+        "summary": "Infosys Limited is an Indian multinational technology company offering IT, business consulting, and outsourcing services, founded in 1981 and headquartered in Bengaluru. It is one of the Big Six Indian IT firms and serves clients worldwide.",
+        "items": [
+          {
+            "text": "Industry: Information technology Consulting, Outsourcing",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE1"
+          },
+          {
+            "text": "Headquarters: Bengaluru, Karnataka, India",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE2"
+          },
+          {
+            "text": "Employees: 328,594 (March 2026)",
+            "kind": "company",
+            "basis": "sourced",
+            "id": "S1-ITE3"
+          },
+          {
+            "text": "Workforce: large, distributed workforce with many young professionals starting families (assumption)",
+            "kind": "company",
+            "basis": "assumption",
+            "id": "S1-ITE4"
+          }
+        ],
+        "exposures": [
+          {
+            "label": "High cost of hospitalisation in metro cities",
+            "severity": "high",
+            "rationale": "Employees are based in major Indian metros where hospitalisation costs are rising sharply.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)",
+            "severity": "medium",
+            "rationale": "A large Indian workforce often faces diabetes, hypertension, and cholesterol issues.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Young workforce starting families (maternity, child care)",
+            "severity": "medium",
+            "rationale": "Many employees are in early career stages and are starting families, increasing maternity and child\u2011care claims.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Employees travelling or posted abroad",
+            "severity": "high",
+            "rationale": "Infosys' worldwide service footprint means staff frequently travel or are posted abroad, raising exposure to travel\u2011related medical emergencies.",
+            "basis": "assumption"
+          },
+          {
+            "label": "Workforce spread across many Indian cities",
+            "severity": "medium",
+            "rationale": "The workforce is spread across numerous Indian cities, complicating uniform health\u2011benefit delivery.",
+            "basis": "assumption"
+          }
+        ]
+      },
+      {
+        "no": 2,
+        "type": "why_marsh",
+        "title": "Why Choose Marsh",
+        "items": [
+          {
+            "text": "Independent comparison of 4 insurer products against Infosys's specific health exposures - not a single-insurer sales pitch.",
+            "kind": "marsh",
+            "id": "S2-ITE1"
+          },
+          {
+            "text": "Transparent, weighted fit-scoring: every recommendation can be traced back to the exposure it addresses.",
+            "kind": "marsh",
+            "id": "S2-ITE2"
+          },
+          {
+            "text": "Every coverage claim in this deck is traced to a clause in the insurer's own documentation and independently audited before it reaches you.",
+            "kind": "marsh",
+            "id": "S2-ITE3"
+          },
+          {
+            "text": "Ongoing advisory support on plan design, add-on selection, employee communication, claims and renewals.",
+            "kind": "marsh",
+            "id": "S2-ITE4"
+          }
+        ]
+      },
+      {
+        "no": 3,
+        "type": "exposure_map",
+        "title": "Infosys's Exposures Mapped to Policy Benefits",
+        "rows": [
+          {
+            "exposure": "High cost of hospitalisation in metro cities",
+            "severity": "high",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p11-ROOMRENT"
+            ],
+            "feature": "Room rent without cap",
+            "text": "Optima Secure+: Room rent reimbursed at actuals with no cap on room category, matching the high metro hospital costs.",
+            "kind": "policy",
+            "template_text": "Optima Secure+: Room rent is paid at actuals, with no room-category cap.",
+            "id": "S3-ROW1"
+          },
+          {
+            "exposure": "Lifestyle and chronic conditions (diabetes, hypertension, cholesterol)",
+            "severity": "medium",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p5-CHECKUP"
+            ],
+            "feature": "Health check-up",
+            "text": "Optima Secure+: Annual preventive health check\u2011up worth INR\u202f2,000\u20118,000 per insured (individual) after each policy year, regardless of claim status.",
+            "kind": "policy",
+            "template_text": "Optima Secure+: Preventive health check-up after every policy year, irrespective of claims (INR 2,000 to 8,000 per insured on individual policies, by sum insured).",
+            "id": "S3-ROW2"
+          },
+          {
+            "exposure": "Young workforce starting families (maternity, child care)",
+            "severity": "medium",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p8-PARENTHOOD"
+            ],
+            "feature": "Maternity",
+            "text": "Optima Secure+: Maternity, embryo storage and IVF covered through the optional Parenthood add\u2011on (additional premium applies).",
+            "kind": "policy",
+            "template_text": "Optima Secure+: Maternity, embryo storage and IVF are available only through the optional Parenthood add-on.",
+            "id": "S3-ROW3"
+          },
+          {
+            "exposure": "Employees travelling or posted abroad",
+            "severity": "high",
+            "doc_id": "ABHI",
+            "clause_ids": [
+              "ABHI-p2-VIP"
+            ],
+            "feature": "Treatment abroad",
+            "text": "Activ One (VIP+ plan): Global emergency and planned treatment cover abroad, sum insured ranging from INR\u202f50\u202flakh to INR\u202f6\u202fcrore.",
+            "kind": "policy",
+            "template_text": "[Alternative: Activ One] Activ One: Under the VIP+ plan: global cover for emergency and planned treatment abroad (any illness or injury), with sum insured from INR 50 lakh to INR 6 crore.",
+            "id": "S3-ROW4"
+          },
+          {
+            "exposure": "Workforce spread across many Indian cities",
+            "severity": "medium",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p12-ADVANTAGES"
+            ],
+            "feature": "Cashless network (stated)",
+            "text": "Optima Secure+: No geography\u2011based co\u2011payment and no claim\u2011based loading on renewal premium across India.",
+            "kind": "policy",
+            "template_text": "Optima Secure+: No geography-based co-payment and no claim-based loading on renewal premium.",
+            "id": "S3-ROW5"
+          }
+        ]
+      },
+      {
+        "no": 4,
+        "type": "comparison",
+        "title": "Policy Comparison & Fit Score",
+        "columns": [
+          "HDFC",
+          "ABHI",
+          "CARE",
+          "NIVA"
+        ],
+        "column_labels": {
+          "HDFC": "Optima Secure+",
+          "ABHI": "Activ One",
+          "CARE": "Care Supreme",
+          "NIVA": "ReAssure 2.0"
+        },
+        "rows": [
+          {
+            "feature": "Room rent without cap",
+            "feature_key": "no_room_rent_cap",
+            "cells": {
+              "HDFC": {
+                "status": "included",
+                "value": "At actuals",
+                "clauses": [
+                  "HDFC-p11-ROOMRENT"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "No capping, up to BSI",
+                "clauses": [
+                  "ABHI-p1-NOCAP"
+                ]
+              },
+              "CARE": {
+                "status": "included",
+                "value": "Up to SI",
+                "clauses": [
+                  "CARE-p2-INPATIENT"
+                ]
+              },
+              "NIVA": {
+                "status": "not_mentioned",
+                "value": "Not stated in brochure",
+                "clauses": []
+              }
+            }
+          },
+          {
+            "feature": "Cover growth (bonus / carry-forward)",
+            "feature_key": "cover_growth",
+            "cells": {
+              "HDFC": {
+                "status": "included",
+                "value": "+100% BSI every year, no cap",
+                "clauses": [
+                  "HDFC-p2-INFINITE"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Up to 6X BSI by year 6",
+                "clauses": [
+                  "ABHI-p2-SUPERCREDIT"
+                ]
+              },
+              "CARE": {
+                "status": "included",
+                "value": "50%/yr up to 100% of SI",
+                "clauses": [
+                  "CARE-p2-BONUS"
+                ]
+              },
+              "NIVA": {
+                "status": "included",
+                "value": "Unutilised SI carried, up to 5X / 10X",
+                "clauses": [
+                  "NIVA-p2-BOOSTER"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Extra cover from Day 1",
+            "feature_key": "day1_extra_cover",
+            "cells": {
+              "HDFC": {
+                "status": "included",
+                "value": "Secure Benefit 2X",
+                "clauses": [
+                  "HDFC-p2-SECURE"
+                ]
+              },
+              "ABHI": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "CARE": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "NIVA": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              }
+            }
+          },
+          {
+            "feature": "Maximum sum insured",
+            "feature_key": "high_sum_insured",
+            "cells": {
+              "HDFC": {
+                "status": "included",
+                "value": "INR 10L - 2 Cr",
+                "clauses": [
+                  "HDFC-p10-OPTIONS"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "INR 5L - 6 Cr",
+                "clauses": [
+                  "ABHI-p2-MORE"
+                ]
+              },
+              "CARE": {
+                "status": "included",
+                "value": "INR 5L - 1 Cr",
+                "clauses": [
+                  "CARE-p2-ELIGIBILITY"
+                ]
+              },
+              "NIVA": {
+                "status": "included",
+                "value": "INR 5L - 1 Cr",
+                "clauses": [
+                  "NIVA-p2-SI"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Early cover for chronic conditions",
+            "feature_key": "chronic_day1",
+            "cells": {
+              "HDFC": {
+                "status": "optional",
+                "value": "ABCD add-on, from day 31",
+                "clauses": [
+                  "HDFC-p8-ABCD"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Day 1, 7 conditions",
+                "clauses": [
+                  "ABHI-p2-CHRONIC"
+                ]
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Instant Cover, after 30 days",
+                "clauses": [
+                  "CARE-p3-INSTANT"
+                ]
+              },
+              "NIVA": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              }
+            }
+          },
+          {
+            "feature": "Wellness rewards",
+            "feature_key": "wellness_rewards",
+            "cells": {
+              "HDFC": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Up to 100% HealthReturns",
+                "clauses": [
+                  "ABHI-p1-HEALTHRETURNS"
+                ]
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Up to 30% renewal discount",
+                "clauses": [
+                  "CARE-p3-WELLNESS"
+                ]
+              },
+              "NIVA": {
+                "status": "included",
+                "value": "Up to 30% renewal discount",
+                "clauses": [
+                  "NIVA-p2-LIVEHEALTHY"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Health check-up",
+            "feature_key": "health_checkup",
+            "cells": {
+              "HDFC": {
+                "status": "included",
+                "value": "Every policy year",
+                "clauses": [
+                  "HDFC-p5-CHECKUP"
+                ]
+              },
+              "ABHI": {
+                "status": "included",
+                "value": "Advanced, incl. CTA / PET",
+                "clauses": [
+                  "ABHI-p2-CHECKUP"
+                ]
+              },
+              "CARE": {
+                "status": "optional",
+                "value": "Annual, optional",
+                "clauses": [
+                  "CARE-p3-OPTIONAL"
+                ]
+              },
+              "NIVA": {
+                "status": "included",
+                "value": "Day 1, network cashless",
+                "clauses": [
+                  "NIVA-p2-CHECKUP"
+                ]
+              }
+            }
+          },
+          {
+            "feature": "Tele-consult / OPD",
+            "feature_key": "teleconsult_opd",
+            "cells": {
+              "HDFC": {
+                "status": "optional",
+                "value": "E-opinion (51 CI); OPD add-on",
+                "clauses": [
+                  "HDFC-p5-EOPINION",
+                  "HDFC-p8-WELLBEING"
+                ]
+              },
+              "ABHI": {
+                "status": "not_mentioned",
+                "value": "-",
+                "clauses": []
+              },
+              "CARE": {
+                "status": "included",
+                "value": "Unlimited GP e-consults",
+                "clauses": [
+                  "CARE-p2-RECHARGE"
+                ]
+              },
+              "NIVA": {
+                "status": "included",
+                "value": "Unlimited e-consults",
+                "clauses": [
+                  "NIVA-p2-OPINION"
+                ]
+              }
+            }
+          }
+        ],
+        "scores": {
+          "HDFC": 67.2,
+          "ABHI": 62.2,
+          "CARE": 53.4,
+          "NIVA": 46.2
+        }
+      },
+      {
+        "no": 5,
+        "type": "recommendation",
+        "title": "Recommendation: HDFC ERGO Optima Secure+",
+        "fit_score": 67.2,
+        "items": [
+          {
+            "text": "Optima Secure+: Room rent paid at actuals with no room\u2011category cap.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p11-ROOMRENT"
+            ],
+            "template_text": "Room rent is paid at actuals, with no room-category cap.",
+            "id": "S5-ITE1"
+          },
+          {
+            "text": "Optima Secure+: Preventive health check\u2011up each policy year, INR\u202f2,000\u20118,000 per insured (individual), irrespective of claims.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p5-CHECKUP"
+            ],
+            "template_text": "Preventive health check-up after every policy year, irrespective of claims (INR 2,000 to 8,000 per insured on individual policies, by sum insured).",
+            "id": "S5-ITE2"
+          },
+          {
+            "text": "Optima Secure+: No geography\u2011based co\u2011payment and no claim\u2011based loading on renewal premium.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p12-ADVANTAGES"
+            ],
+            "template_text": "No geography-based co-payment and no claim-based loading on renewal premium.",
+            "id": "S5-ITE3"
+          },
+          {
+            "text": "Optima Secure+: Secure Benefit 2X provides double coverage from Day\u202f1 at no extra cost.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p2-SECURE"
+            ],
+            "template_text": "Secure Benefit gives 2X coverage from Day 1 at no extra cost.",
+            "id": "S5-ITE4"
+          },
+          {
+            "text": "Optima Secure+: Automatic Restore refills the base cover after every claim, unlimited times.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p2-RESTORE"
+            ],
+            "template_text": "Automatic Restore refills the base cover every time a claim is made, unlimited times.",
+            "id": "S5-ITE5"
+          }
+        ],
+        "considerations": [
+          {
+            "text": "Optima Secure+: Waiting periods \u2013 30\u202fdays initial, 24\u202fmonths for specific illnesses, 36\u202fmonths for pre\u2011existing diseases.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p14-WAITING"
+            ],
+            "template_text": "Waiting periods: 30 days initial, 24 months for specific illnesses, 36 months for pre-existing diseases.",
+            "id": "S5-CON1"
+          },
+          {
+            "text": "Optima Secure+: Optional ABCD Chronic Care add\u2011on covers hospitalisation for asthma, blood pressure, cholesterol and diabetes from day\u202f31.",
+            "kind": "policy",
+            "doc_id": "HDFC",
+            "clause_ids": [
+              "HDFC-p8-ABCD"
+            ],
+            "template_text": "Consider add-on: Optional ABCD Chronic Care add-on covers hospitalisation for asthma, blood pressure, cholesterol and diabetes from the 31st day.",
+            "id": "S5-CON2"
+          }
+        ],
+        "next_steps": [
+          {
+            "text": "These are individual / family-floater products: agree with the insurer how they are offered to employees (employer-paid or voluntary top-up).",
+            "kind": "action",
+            "id": "S5-NEX1"
+          },
+          {
+            "text": "Confirm employee census (ages, dependants, locations) to obtain premium quotes.",
+            "kind": "action",
+            "id": "S5-NEX2"
+          },
+          {
+            "text": "Validate final terms against the full policy wording before placement.",
+            "kind": "action",
+            "id": "S5-NEX3"
+          }
+        ]
+      }
+    ],
+    "recommended": {
+      "doc_id": "HDFC",
+      "label": "HDFC ERGO Optima Secure+"
+    },
+    "company": "Infosys",
+    "scores": [
+      {
+        "doc_id": "HDFC",
+        "label": "HDFC ERGO Optima Secure+",
+        "score": 67.2,
+        "breakdown": {
+          "high_treatment_costs": 100,
+          "lifestyle_chronic": 48,
+          "young_families": 62,
+          "global_mobility": 0,
+          "distributed_workforce": 83
+        }
+      },
+      {
+        "doc_id": "ABHI",
+        "label": "Aditya Birla Health Insurance Activ One",
+        "score": 62.2,
+        "breakdown": {
+          "high_treatment_costs": 79,
+          "lifestyle_chronic": 85,
+          "young_families": 45,
+          "global_mobility": 60,
+          "distributed_workforce": 0
+        }
+      },
+      {
+        "doc_id": "CARE",
+        "label": "Care Health Insurance Care Supreme",
+        "score": 53.4,
+        "breakdown": {
+          "high_treatment_costs": 79,
+          "lifestyle_chronic": 57,
+          "young_families": 50,
+          "global_mobility": 0,
+          "distributed_workforce": 33
+        }
+      },
+      {
+        "doc_id": "NIVA",
+        "label": "Niva Bupa Health Insurance ReAssure 2.0",
+        "score": 46.2,
+        "breakdown": {
+          "high_treatment_costs": 43,
+          "lifestyle_chronic": 63,
+          "young_families": 25,
+          "global_mobility": 0,
+          "distributed_workforce": 100
+        }
+      }
+    ],
+    "mode": "llm",
+    "policy_docs": [
+      "HDFC",
+      "CARE",
+      "ABHI",
+      "NIVA"
+    ],
+    "generated_at": "2026-09-27T16:38:24",
+    "warnings": [],
+    "model": "openai/gpt-oss-120b",
+    "profile_sources": [
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Infosys"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+.env
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+.DS_Store
+.streamlit/secrets.toml
+outputs/marsh_*/
