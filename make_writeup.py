@@ -34,6 +34,7 @@ def b(t, bold_lead=None):
 
 h("Marsh AI Pitch Generator & Audit Layer - Solution Write-up", 0)
 doc.add_paragraph("NMIMS 2026 Internship Case Study - India Knowledge Services, Data Science Team")
+doc.add_paragraph("Live application: https://marsh-pitch-generator.streamlit.app (no API key needed)\nSource code: https://github.com/karanLokhande29/marsh-pitch-generator")
 
 h("1. Problem and approach")
 doc.add_paragraph(

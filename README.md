@@ -1,5 +1,8 @@
 # Marsh AI Pitch Generator (NMIMS 2026 case study)
 
+**Live app:** https://marsh-pitch-generator.streamlit.app (no API key needed)  
+**Code:** https://github.com/karanLokhande29/marsh-pitch-generator
+
 A Streamlit app that turns a **client company name** + **insurer policy brochures** into a 5-slide PowerPoint pitch,
 then **audits every claim** against the source documents before the advisor can approve it.
 
